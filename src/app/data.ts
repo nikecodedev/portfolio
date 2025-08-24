@@ -6,6 +6,7 @@ import {
   SkygazeImage,
   TodoImage,
   VIPSImage,
+  VueBitsImage,
 } from "@/assets";
 
 export interface IProjectData {
@@ -15,7 +16,6 @@ export interface IProjectData {
   NOTE?: string;
   TECH_STACK: string[];
   IMAGE: StaticImageData;
-  HIDDEN: boolean;
 }
 
 export const DATA = {
@@ -131,7 +131,19 @@ export const DATA = {
         "XLSX",
       ],
       IMAGE: VIPSImage,
-      HIDDEN: false,
+    },
+    "Vue Bits": {
+      SLUG: "vue-bits",
+      LIVE_PREVIEW: "https://vue-bits.dev/",
+      GITHUB: "https://github.com/DavidHDev/vue-bits",
+      DESCRIPTION: [
+        "Contributed 20+ components to the largest and most creative library of animated Vue components.",
+        "Helped develop highly customizable animated UI elements for modern web projects, including text animations, backgrounds, and interactive visuals.",
+        "Components are designed for seamless integration with Vue.js and Nuxt projects, providing minimal dependencies and flexible prop-based customization.",
+        "Open-source collection growing weekly, inspired by the React Bits project.",
+      ],
+      TECH_STACK: ["Vue.js", "TypeScript", "Tailwind CSS"],
+      IMAGE: VueBitsImage,
     },
     "Digital Library, VIPS-TC": {
       LIVE_PREVIEW: "https://btech.library.vips.edu/",
@@ -142,7 +154,6 @@ export const DATA = {
       ],
       TECH_STACK: ["React.js", "Tailwind CSS", "Firebase"],
       IMAGE: LibraryImage,
-      HIDDEN: false,
     },
     "Skygaze India": {
       LIVE_PREVIEW: "https://www.skygazeindia.com/",
@@ -160,7 +171,6 @@ export const DATA = {
         "GCP",
       ],
       IMAGE: SkygazeImage,
-      HIDDEN: false,
     },
     "AirWatch PWA": {
       LIVE_PREVIEW: "https://airwatch-pwa-app.vercel.app/",
@@ -183,7 +193,6 @@ export const DATA = {
         "PWA",
       ],
       IMAGE: AirwatchImage,
-      HIDDEN: false,
     },
     "ToDo Extension with Chrome Storage API": {
       LIVE_PREVIEW: "https://todo-extension-webapp.vercel.app/",
@@ -204,7 +213,6 @@ export const DATA = {
         "Message Broadcasting",
       ],
       IMAGE: TodoImage,
-      HIDDEN: false,
     },
   },
 
