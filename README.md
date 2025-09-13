@@ -1,6 +1,6 @@
 # Portfolio
 
-[🔗 Live Preview](https://utkarsh-singhal.is-a.dev/)
+[🔗 Live Preview](https://amir-ismail.is-a.dev/)
 
 Welcome to my personal portfolio repository! This project showcases my work, skills, and experience through a modern, responsive, and dynamic web application built with Next.js and Tailwind CSS.
 
@@ -28,7 +28,7 @@ Welcome to my personal portfolio repository! This project showcases my work, ski
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/Utkarsh-Singhal-26/portfolio.git
+   git clone https://github.com/Amir-Ismail/portfolio.git
    cd portfolio
    ```
 
