@@ -8,3 +8,6 @@ export { default as AnneMichelleImage } from "./Anne Michelle Fashions -web deve
 export { default as BiologicsImage } from "./Biologics CDMO.png";
 export { default as ProjectIPhiImage } from "./projectiphi.png";
 export { default as SSIASemiconductorImage } from "./ssia semiconductor.jpg";
+export { default as RentalApplicationImage } from "./Rental Application Development.png";
+export { default as CorribOilImage } from "./corrib oil.jpg";
+export { default as AccessMedlabImage } from "./Access medlab.jpg";

@@ -24,24 +24,6 @@ export function Projects({ data }: { data: Record<string, IProjectData> }) {
                   <div>
                     <p className="text-primary/90 text-lg">{key}</p>
 
-                    <p className="flex items-center gap-1 text-sm">
-                      {value.LIVE_PREVIEW && (
-                        <a
-                          className="flex items-center gap-1"
-                          href={value.LIVE_PREVIEW}
-                        >
-                          live preview <ArrowUpRight size={18} />
-                        </a>
-                      )}
-                      {value.GITHUB && (
-                        <a
-                          className="flex items-center gap-1"
-                          href={value.GITHUB}
-                        >
-                          github <ArrowUpRight size={18} />
-                        </a>
-                      )}
-                    </p>
                   </div>
                 </div>
 

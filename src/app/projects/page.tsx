@@ -72,24 +72,6 @@ export default function Page() {
                   <div>
                     <h2 className="mb-1 font-medium text-2xl">{key}</h2>
 
-                    <p className="flex items-center gap-1 text-sm">
-                      {value.LIVE_PREVIEW && (
-                        <a
-                          className="flex items-center gap-1"
-                          href={value.LIVE_PREVIEW}
-                        >
-                          live preview <ArrowUpRight size={18} />
-                        </a>
-                      )}
-                      {value.GITHUB && (
-                        <a
-                          className="flex items-center gap-1"
-                          href={value.GITHUB}
-                        >
-                          github <ArrowUpRight size={18} />
-                        </a>
-                      )}
-                    </p>
                   </div>
                   <ul className="space-y-1 mt-1 pl-3 text-muted-foreground text-sm text-justify list-disc">
                     {value.DESCRIPTION.map((desc, index) => (
