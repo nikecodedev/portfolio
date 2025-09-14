@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Download } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { MovingElement } from "../navbar";
 
 export function Header({ data }: { data: Record<string, string> }) {
@@ -9,17 +9,6 @@ export function Header({ data }: { data: Record<string, string> }) {
   const handleResumeView = () => {
     // Open resume in browser for viewing
     window.open(data.RESUME, "_blank");
-  };
-
-  const handleResumeDownload = () => {
-    // Create a temporary anchor element to download the resume
-    const link = document.createElement('a');
-    link.href = data.RESUME;
-    link.download = 'amirismail-resume.pdf';
-    link.target = '_blank';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
   };
 
   return (
@@ -48,16 +37,7 @@ export function Header({ data }: { data: Record<string, string> }) {
             toChange={false}
             ariaLabel="View Resume"
           >
-            View Resume
-          </MovingElement>
-          <MovingElement
-            className="inline-flex justify-center items-center bg-background hover:bg-accent disabled:opacity-50 shadow-sm px-4 py-2 border border-input rounded-md focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring h-9 font-medium text-muted-foreground text-sm whitespace-nowrap transition-colors hover:text-accent-foreground cursor-target disabled:pointer-events-none"
-            change={handleResumeDownload}
-            toChange={false}
-            ariaLabel="Download Resume"
-          >
-            <Download size={16} className="mr-2" />
-            Download
+            Resume
           </MovingElement>
           <div className="flex gap-2">
             <MovingElement

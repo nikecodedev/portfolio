@@ -6,6 +6,17 @@ export function Contact({ data }: { data: Record<string, string> }) {
     window.open(url, "_blank");
   };
 
+  const handleResumeDownload = () => {
+    // Create a temporary anchor element to download the resume
+    const link = document.createElement('a');
+    link.href = data.RESUME;
+    link.download = 'amirismail-resume.pdf';
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="py-10">
       <div className="space-y-6 text-center">
@@ -28,7 +39,7 @@ export function Contact({ data }: { data: Record<string, string> }) {
           </button>
           <button
             className="inline-flex justify-center items-center hover:bg-primary/10 disabled:opacity-50 shadow px-4 border border-primary rounded-md focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring h-9 font-medium text-primary text-sm whitespace-nowrap transition-colors cursor-target disabled:pointer-events-none"
-            onClick={() => handleChange(data.RESUME)}
+            onClick={handleResumeDownload}
           >
             <FileText className="mr-2 w-4 h-4" />
             Download Resume
