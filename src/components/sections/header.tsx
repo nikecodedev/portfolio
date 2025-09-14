@@ -6,6 +6,17 @@ export function Header({ data }: { data: Record<string, string> }) {
     window.open(url, "_blank");
   };
 
+  const handleResumeClick = () => {
+    // Create a temporary anchor element to download the resume
+    const link = document.createElement('a');
+    link.href = data.RESUME;
+    link.download = 'amirismail-resume.pdf';
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="pt-12">
       <div className="space-y-2">
@@ -28,7 +39,7 @@ export function Header({ data }: { data: Record<string, string> }) {
         <div className="flex items-center gap-2 text-sm">
           <MovingElement
             className="inline-flex justify-center items-center bg-primary betterhover:hover:bg-primary/90 disabled:opacity-50 shadow px-4 py-2 rounded-md focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring h-9 font-medium text-primary-foreground text-sm whitespace-nowrap transition-colors disabled:pointer-events-none"
-            change={() => handleChange(data.RESUME)}
+            change={handleResumeClick}
             toChange={false}
             ariaLabel="Resume"
           >
