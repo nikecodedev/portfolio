@@ -1,9 +1,6 @@
 import { StaticImageData } from "next/image";
 
 import {
-  AirwatchImage,
-  TodoImage,
-  VueBitsImage,
   AnneMichelleImage,
   BiologicsImage,
   ProjectIPhiImage,
@@ -118,60 +115,7 @@ export const DATA = {
   },
 
   PROJECTS: {
-    "Vue Bits": {
-      SLUG: "vue-bits",
-      LIVE_PREVIEW: "https://vue-bits.dev/",
-      DESCRIPTION: [
-        "Contributed 20+ components to the largest and most creative library of animated Vue components.",
-        "Helped develop highly customizable animated UI elements for modern web projects, including text animations, backgrounds, and interactive visuals.",
-        "Components are designed for seamless integration with Vue.js and Nuxt projects, providing minimal dependencies and flexible prop-based customization.",
-        "Open-source collection growing weekly, inspired by the React Bits project.",
-      ],
-      TECH_STACK: ["Vue.js", "TypeScript", "Tailwind CSS"],
-      IMAGE: VueBitsImage,
-    },
-    "AirWatch PWA": {
-      LIVE_PREVIEW: "https://airwatch-pwa-app.vercel.app/",
-      DESCRIPTION: [
-        "Built a fully responsive, offline-capable Progressive Web App (PWA) using Next.js 15 to monitor air quality in real-time.",
-        "Integrated Firebase Cloud Messaging for push notifications and AI-powered smart insights using Groq SDK.",
-        "Implemented interactive charts with Recharts and Google Maps for detailed visualizations.",
-        "Designed a beautiful UI using TailwindCSS, ShadCN UI, and Lucide Icons with strong TypeScript typing and scalable architecture.",
-      ],
-      TECH_STACK: [
-        "Next.js",
-        "ShadCN UI",
-        "Tailwind CSS",
-        "TypeScript",
-        "Firebase",
-        "Recharts",
-        "Google Maps API",
-        "Groq SDK",
-        "PWA",
-      ],
-      IMAGE: AirwatchImage,
-    },
-    "ToDo Extension with Chrome Storage API": {
-      LIVE_PREVIEW: "https://todo-extension-webapp.vercel.app/",
-      DESCRIPTION: [
-        "Developed and launched a Chrome extension for task management using Chrome Storage API.",
-        "Implemented user-friendly interface to enhance productivity and task tracking.",
-        "Designed responsive layout ensuring seamless experience across different screen sizes and browsers.",
-        "Integrated message broadcasting for real-time updates and synchronization",
-      ],
-      NOTE: "Note: The extension is not published on the Chrome Web Store.",
-      TECH_STACK: [
-        "TypeScript",
-        "React.js",
-        "Tailwind CSS",
-        "Borwser Extension",
-        "Chrome Storage API",
-        "Message Broadcasting",
-      ],
-      IMAGE: TodoImage,
-    },
     "Anne Michelle Fashions": {
-      LIVE_PREVIEW: "https://annemichellefashions.com/",
       DESCRIPTION: [
         "Developed a WooCommerce web platform with custom interactive design and payment interfaces for ethical fashion products.",
         "Created product category portfolio and custom sliders for enhanced user experience.",
@@ -194,7 +138,6 @@ export const DATA = {
       IMAGE: AnneMichelleImage,
     },
     "Construction Project Management System": {
-      LIVE_PREVIEW: "https://projectiphi.com/",
       DESCRIPTION: [
         "Developed ProjectiPhi - Construction Project Management System providing comprehensive tools for project management.",
         "Implemented Gantt Charts for project timeline visualization and task management capabilities.",
@@ -215,7 +158,6 @@ export const DATA = {
       IMAGE: ProjectIPhiImage,
     },
     "Biologics CDMO": {
-      LIVE_PREVIEW: "https://kemwell.com/",
       DESCRIPTION: [
         "Developed website for Asia's largest biologics CDMO brand Kemwell Biopharma.",
         "Integrated high-quality contact forms and lead generation mechanisms for business growth.",
@@ -237,7 +179,6 @@ export const DATA = {
       IMAGE: BiologicsImage,
     },
     "SSIA Semiconductor": {
-      LIVE_PREVIEW: "https://ssia.org.sg/",
       DESCRIPTION: [
         "Developed website for SSIA - association facilitating growth in Singapore's semiconductor industry.",
         "Created event management system for virtual career fairs and industry showcases.",
