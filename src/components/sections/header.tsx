@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 import { MovingElement } from "../navbar";
 
 export function Header({ data }: { data: Record<string, string> }) {
@@ -45,12 +45,6 @@ export function Header({ data }: { data: Record<string, string> }) {
               ariaLabel="Email"
             >
               <Mail />
-            </MovingElement>
-            <MovingElement
-              change={() => handleChange(data.GITHUB)}
-              ariaLabel="Github"
-            >
-              <Github />
             </MovingElement>
             <MovingElement
               change={() => handleChange(data.LINKEDIN)}

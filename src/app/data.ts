@@ -27,7 +27,7 @@ export const DATA = {
     HEADLINE:
       "Passionate about building high-performance and scalable web applications.",
     RESUME: "/amirismail-resume.pdf",
-    EMAIL: "mailto:amir.ismail@example.com",
+    EMAIL: "mailto:amirismail.my@outlook.com",
     GITHUB: "https://github.com/nikecodedev",
     LINKEDIN: "https://www.linkedin.com/in/amirismail-in",
   },

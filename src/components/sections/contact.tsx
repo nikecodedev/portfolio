@@ -1,4 +1,4 @@
-import { FileText, Github, Linkedin, Mail } from "lucide-react";
+import { FileText, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 
 export function Contact({ data }: { data: Record<string, string> }) {
@@ -50,19 +50,12 @@ export function Contact({ data }: { data: Record<string, string> }) {
           <Link
             href="#"
             className="text-gray-400 hover:text-white transition-colors"
-            onClick={() => handleChange(data.GITHUB)}
-          >
-            <Github className="w-5 h-5" />
-          </Link>
-          <Link
-            href="#"
-            className="text-gray-400 hover:text-white transition-colors"
             onClick={() => handleChange(data.LINKEDIN)}
           >
             <Linkedin className="w-5 h-5" />
           </Link>
           <Link
-            href="mailto:amir@example.com"
+            href="mailto:amirismail.my@outlook.com"
             className="text-gray-400 hover:text-white transition-colors"
             onClick={() => handleChange(data.EMAIL)}
           >
