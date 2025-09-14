@@ -4,3 +4,7 @@ export { default as SkygazeImage } from "./skygaze.webp";
 export { default as TodoImage } from "./todo.webp";
 export { default as VIPSImage } from "./vips.webp";
 export { default as VueBitsImage } from "./vue-bits.webp";
+export { default as AnneMichelleImage } from "./Anne Michelle Fashions -web development.png";
+export { default as BiologicsImage } from "./Biologics CDMO.png";
+export { default as ProjectIPhiImage } from "./projectiphi.png";
+export { default as SSIASemiconductorImage } from "./ssia semiconductor.jpg";
