@@ -26,7 +26,7 @@ export const DATA = {
     PRONOUN: "he/him",
     HEADLINE:
       "Passionate about building high-performance and scalable web applications.",
-    RESUME: "/Amir Ismail- resume .pdf",
+    RESUME: "/amirismail-resume.pdf",
     EMAIL: "mailto:amir.ismail@example.com",
     GITHUB: "https://github.com/nikecodedev",
     LINKEDIN: "https://www.linkedin.com/in/amirismail-in",
