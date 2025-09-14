@@ -5,7 +5,6 @@ import { Contact, Footer, Navbar } from "@/components/sections";
 import GridPattern from "@/components/ui/grid-pattern";
 import TargetCursor from "@/components/ui/target-cursor";
 import useMobileDetection from "@/hooks/use-mobile";
-import { ArrowUpRight } from "lucide-react";
 import Image, { StaticImageData } from "next/image";
 import React from "react";
 
