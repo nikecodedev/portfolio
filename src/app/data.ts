@@ -41,8 +41,8 @@ export const DATA = {
   },
 
   EXPERIENCE: {
-    "TechVision Solutions": {
-      WEBSITE: "https://www.techvisionsolutions.com/",
+    "Tech Vision Solution": {
+      WEBSITE: "https://www.techvision.my/",
       POSITION: "Senior Software Engineer",
       LOCATION: "Kuala Lumpur, Malaysia",
       DURATION: "02/2022 – Present",
@@ -67,8 +67,8 @@ export const DATA = {
         "Git",
       ],
     },
-    "DigitalWave Technologies": {
-      WEBSITE: "https://www.digitalwave.com/",
+    "Digital Wave Technology": {
+      WEBSITE: "https://www.digitalwavetechnology.com/",
       POSITION: "Software Engineer",
       LOCATION: "Penang, Malaysia",
       DURATION: "03/2020 – 11/2021",
@@ -92,8 +92,8 @@ export const DATA = {
         "Git",
       ],
     },
-    "SmartApps Sdn Bhd": {
-      WEBSITE: "https://www.smartapps.com.my/",
+    "Smart App Connect Sdn. Bhd.": {
+      WEBSITE: "https://innovationo2o.com/",
       POSITION: "Software Engineer",
       LOCATION: "Selangor, Malaysia",
       DURATION: "01/2018 – 09/2019",
